@@ -55,7 +55,6 @@
                         </p>
                     </div>
                     <a class="btn-outline-primary btn" onclick="addToList(<%=sheet.getSheetId()%>)">연습 목록에 추가하기</a>
-<%--                    <input name="addForm" type="button" class="btn-outline-primary btn" onclick="addToList()" value="연습 목록에 추가하기"></input>--%>
                 </div>
             </form>
         </div>

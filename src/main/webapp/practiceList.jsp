@@ -56,7 +56,6 @@
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <%--                                <button type="button" class="btn btn-sm btn-outline-secondary">자세히</button>--%>
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="removeFromList(<%=sheet.getSheetId()%>)">삭제하기</button>
                                 </div>
                             </div>
