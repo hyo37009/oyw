@@ -10,6 +10,9 @@
 프로젝트를 실행하는데 필요한 lib들은 src/main/webapp/WEB-INF/lib 에 있습니다.
 이 폴더 안의 jar 파일을 모두 프로젝트에 추가하면 됩니다.
 
+
+새로 업로드된 파일이 올바르게 저장되고 불러와질 수 있도록 processAddSheet.jsp의 filePath를 로컬 컴퓨더의 실제 파일이 저장될 경로로 바꿔주세요.
+
 ---
 
 ## home
