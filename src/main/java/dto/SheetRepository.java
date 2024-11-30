@@ -15,7 +15,7 @@ public class SheetRepository {
         Sheet sheet2 = new Sheet("2", "the solo 2", "./resources/images/2.jpg", "the solo", "drum");
         Sheet sheet3 = new Sheet("3", "the solo 3", "./resources/images/3.jpg", "the solo", "drum");
         Sheet sheet4 = new Sheet("4", "the solo 4", "./resources/images/4.jpg", "the solo", "drum");
-        Sheet sheet5 = new Sheet("5", "the solo 5", "./resources/images/5.jpg", "the solo", "drum");
+        Sheet sheet5 = new Sheet("5", "guitar pr", "./resources/images/5.jpg", "g pr", "guitar");
 
         listOfSheets.add(sheet1);
         listOfSheets.add(sheet2);

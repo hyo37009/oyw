@@ -8,9 +8,9 @@
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="./index.jsp" class="nav-link px-2 text-white">Home</a></li>
-        <li><a href="./sheets.jsp" class="nav-link px-2 text-white">Sheets</a></li>
-        <li><a href="./addSheet.jsp" class="nav-link px-2 text-white">addSheet</a></li>
-        <li><a href="./practiceList.jsp" class="nav-link px-2 text-white">practice</a></li>
+        <li><a href="./sheets.jsp" class="nav-link px-2 text-white">악보</a></li>
+        <li><a href="./addSheet.jsp" class="nav-link px-2 text-white">악보 추가</a></li>
+        <li><a href="./practiceList.jsp" class="nav-link px-2 text-white">연습하기!</a></li>
       </ul>
     </div>
   </div>
