@@ -13,7 +13,7 @@
 
     Sheet sheet = dao.getSheetById(id);
     if (sheet == null) {
-        response.sendRedirect("exceptionNoBookId.jsp");
+        response.sendRedirect("exceptionNoSheetId.jsp");
     }
 
     ArrayList<Sheet> list = (ArrayList<Sheet>) session.getAttribute("practiceList");

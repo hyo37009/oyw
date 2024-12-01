@@ -11,7 +11,6 @@
   String filePath = "C:\\Users\\hyo37\\Documents\\github\\OYW\\src\\main\\webapp\\resources\\images\\";
   String encType = "utf-8";
 
-//  String path = application.getRealPath("/resources/images/sheets");
   MultipartRequest multi = new MultipartRequest(request, filePath, 20 * 1024 * 1024, encType, new DefaultFileRenamePolicy());
 
   String sheetName = multi.getParameter("name");

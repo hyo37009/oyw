@@ -11,7 +11,7 @@
         async></script>
 <html>
 <head>
-    <title>Practice List</title>
+    <title>연습 하자!</title>
     <script type="text/javascript">
         function removeFromList(id) {
             if (confirm("악보를 연습 목록에서 삭제하시겠습니까?")) {

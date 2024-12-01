@@ -11,10 +11,16 @@
         async></script>
 <%--<jsp:useBean id="sheetDAO" class="dto.SheetRepository" scope="session"/>--%>
 <html>
+<%
+    String id = request.getParameter("id");
+    SheetRepository dao = SheetRepository.getSheetRepository();
+    Sheet sheet = dao.getSheetById(id);
+%>
 <head>
-    <title>Sheet</title>
+    <title><%=sheet.getName()%> 악보!!</title>
 </head>
 <body>
+
 <%@ include file="menu.jsp" %>
 <div class="container py-4">
     <div class="p-5 mb-4 bg-body rounded-3">
@@ -24,11 +30,7 @@
         </div>
     </div>
 
-    <%
-        String id = request.getParameter("id");
-        SheetRepository dao = SheetRepository.getSheetRepository();
-        Sheet sheet = dao.getSheetById(id);
-    %>
+
     <div class="row align-items-center">
         <div class="col-md-10">
             <img src="<%=sheet.getFilePath()%>" width="700px"/>

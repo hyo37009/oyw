@@ -13,7 +13,7 @@
         async></script>
 <html>
 <head>
-    <title>Finish!</title>
+    <title>오연완!</title>
 </head>
 <body>
 <%@ include file="menu.jsp" %>

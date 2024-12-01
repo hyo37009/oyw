@@ -19,7 +19,7 @@
 </script>
 <html>
 <head>
-    <title>Practice</title>
+    <title>연습 중!</title>
 </head>
 <body>
 <div>
@@ -64,7 +64,7 @@
                             <input type="number" class="form-control" value="80" step="5" name="bpm">
                         </div>
                         <div class="col col-lg-2">
-                            <input type="submit" class="btn btn-success" value="이렇게 기록!" onclick="addRecord(id)">
+                            <input type="submit" class="btn btn-success" value="이렇게 기록!">
                         </div>
                     </div>
                 </form>
